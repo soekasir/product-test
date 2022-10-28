@@ -1,13 +1,13 @@
 import App from "./App";
 import ProductDetail from "./Detail";
 
-type LazyPage={
+type Page={
   path: string
   element: any
   name: string
 }
 
-const LazyPages: LazyPage[] = [
+const Pages: Page[] = [
   {
     path: "/",
     element: App,//React.lazy(() => import("./App")),
@@ -15,9 +15,9 @@ const LazyPages: LazyPage[] = [
   },
   {
     path: "/detail",
-    element: ProductDetail,//React.lazy(() => import("./ProductDetail")),
+    element: ProductDetail,//React.lazy(() => import("./Detail")),
     name: "Detail"
   }
 ];
 
-export default LazyPages;
+export default Pages;

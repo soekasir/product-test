@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Grid, Typography } from '@mui/material';
 import { resolve } from 'inversify-react';
 import { observer } from 'mobx-react';
-import { IStart } from './icons';
-import { ProductStore } from './Product.Store';
-import { getParameterByName } from '../../utils/hooks';
-import { ProductDto } from './Product.Dto';
+import { IStart } from '../icons';
+import { ProductStore } from '../Product.Store';
+import { getParameterByName } from '../../../utils/hooks';
+import { ProductDto } from '../Product.Dto';
 // ReactSlideShow Fade
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'

@@ -1,8 +1,8 @@
 import Grid from "@mui/material/Grid";
 import IconButton from "@mui/material/IconButton";
 import React from "react";
-import ProductLayout from "../../components/Layouts/Product.Layout";
-import ProductDetail from "../../modules/Products/ProductDetail";
+import ProductLayout from "../../modules/Products/components/ProductLayout";
+import ProductDetail from "../../modules/Products/components/ProductDetail";
 import { Link } from "react-router-dom";
 import { Typography } from "@mui/material";
 import { IBack } from "../../modules/Products/icons";

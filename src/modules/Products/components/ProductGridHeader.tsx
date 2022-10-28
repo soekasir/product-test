@@ -11,8 +11,8 @@ import {
 import { resolve } from "inversify-react";
 import { observer } from "mobx-react";
 import React, { Component } from "react";
-import { CategoryStore } from "./Category.Store";
-import { ProductStore } from "./Product.Store";
+import { CategoryStore } from "../Category.Store";
+import { ProductStore } from "../Product.Store";
 // import SearchIcon from "@mui/icons-material/Search";
 
 @observer

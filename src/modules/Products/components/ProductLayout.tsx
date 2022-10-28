@@ -1,4 +1,4 @@
-import { layoutWidth } from "../../styles/theme"
+import { layoutWidth } from "../../../styles/theme"
 
 interface PLayout{
   children:React.ReactNode,
