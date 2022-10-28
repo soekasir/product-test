@@ -11,6 +11,7 @@ const container = new Container({
   defaultScope: 'Singleton',
   skipBaseClassChecks: true
 })
+
 export class SingletonContainer extends Component<Props>{
   render(){
     return(
